@@ -317,6 +317,30 @@ body{
     margin-top: 10px;
 }
 
+.bg-inner-start-chat{
+   
+    background-color: #fff;
+    color:#3db83a ;
+    border: 1px solid #3db83a ;
+    padding: 6px;
+    border-radius: 4px;
+    width: 100%;
+    
+    justify-content: center;
+    transition: 0.6s all;
+    height: 40px;
+    margin-top: 15px;
+}
+.bg-inner-start-chat div{
+    text-align: center;
+    align-items:center;
+    font-weight: 800;
+}
+.bg-inner-start-chat:hover{
+    background-color: #3db83a;
+    color: white;
+}
+
 
 
 
@@ -347,7 +371,7 @@ body{
 .wraped-2-div div div{
     font-size: 15px;
 
-
+}
 .inner-safety{
     display: flex;
     justify-content: center;
